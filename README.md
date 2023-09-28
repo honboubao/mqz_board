@@ -2,7 +2,7 @@
 
 KiCad 7 PCB layout project for a 32 key keyboard with Kailh PG1232 Mini Choc switches and a nice!nano microcontroller.
 
-![Board Rendering](./mqz_board.png)
+![Board Rendering](./choc-pg1232/mqz_board.png)
 
 [Firmware](https://github.com/honboubao/mqz_fw)
 
