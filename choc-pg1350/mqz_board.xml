@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\hbb\Desktop\workspace\pcb\mqz_board\mqz_board.kicad_sch</source>
+    <date>12.03.2023 15:46:43</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Micro Qwertz Keyboard PCB</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mqz_board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Connector_Wire:SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96df4837-47e2-4dba-be9e-7b6e1988df35</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aa54e8d-20eb-46dc-a092-83fd6a745b5d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>202ec475-3434-405c-a2c1-d854728eec32</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67e96520-1b5f-4b60-8262-fe1c121af2c4</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e74fd961-86b7-429b-a2fd-6d9be5e75257</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2faccb23-93cb-4fde-8670-31ef4e5a4632</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee7d5b47-a040-433e-9be5-d12749545935</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5114cb5a-5264-41bd-b86e-8fa20557f0e9</tstamps>
+    </comp>
+    <comp ref="K6">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7171e043-1e47-4d59-837c-a843122fbf07</tstamps>
+    </comp>
+    <comp ref="K7">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>070968a5-8c82-4334-8d90-4d7bafd9d906</tstamps>
+    </comp>
+    <comp ref="K8">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e276aa3f-2b63-40ef-afbe-03393f970625</tstamps>
+    </comp>
+    <comp ref="K9">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87819257-12cf-4a99-b0dd-da1a9ac59099</tstamps>
+    </comp>
+    <comp ref="K10">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d10d3851-d7df-4b87-8fd2-39cd346e0855</tstamps>
+    </comp>
+    <comp ref="K11">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b046967b-e3a8-4e5a-89b9-e0565f7da04a</tstamps>
+    </comp>
+    <comp ref="K12">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e30025e-3de1-431b-8850-22e61545d046</tstamps>
+    </comp>
+    <comp ref="K13">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>634c8a89-0fc7-4d43-9b6a-3a037137349b</tstamps>
+    </comp>
+    <comp ref="K14">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d51fdc-25f7-4cb4-a77f-194ad09c2a16</tstamps>
+    </comp>
+    <comp ref="K15">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18c2e470-27ce-416c-8b96-197aac53f41f</tstamps>
+    </comp>
+    <comp ref="K16">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>808eb6c6-1ea2-46f5-8284-57c508d7e61d</tstamps>
+    </comp>
+    <comp ref="K17">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>016cd8d8-a541-4a6e-a3b3-94f9d18dfc78</tstamps>
+    </comp>
+    <comp ref="K18">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6324787-c2e4-42fa-bf55-d8b314e62aa2</tstamps>
+    </comp>
+    <comp ref="K19">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6715016-7eeb-4c65-aa80-bbeef109102c</tstamps>
+    </comp>
+    <comp ref="K20">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83162270-c59f-42e3-9da5-7f525328f838</tstamps>
+    </comp>
+    <comp ref="K21">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16f93d45-6f1e-4e07-b9d3-8fc9c6ed996f</tstamps>
+    </comp>
+    <comp ref="K22">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8171dd55-7034-4ec0-8cb8-ba2820d80c4d</tstamps>
+    </comp>
+    <comp ref="K23">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b79ee25-4ab5-4b6e-8c22-c771a5c773b4</tstamps>
+    </comp>
+    <comp ref="K24">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87e39843-725e-4c9e-84a7-d3b5a380d409</tstamps>
+    </comp>
+    <comp ref="K25">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06b3544b-01bb-4d25-b33b-e976cbeec0db</tstamps>
+    </comp>
+    <comp ref="K26">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7404e5e-7881-4cf9-a488-9c73f4f74692</tstamps>
+    </comp>
+    <comp ref="K27">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c16f4f60-76ff-4cab-8cbc-6690f8218913</tstamps>
+    </comp>
+    <comp ref="K28">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62736f71-8b40-4da7-ac1a-1c24ea4a71ca</tstamps>
+    </comp>
+    <comp ref="K29">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed718bbf-a6c5-4b4c-9e28-0292f5babe1f</tstamps>
+    </comp>
+    <comp ref="K30">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa8bd262-c5be-4586-90e3-b71e0568542c</tstamps>
+    </comp>
+    <comp ref="K31">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>417aecab-cdcf-4c14-94e2-8f568b9fa01e</tstamps>
+    </comp>
+    <comp ref="K32">
+      <value>diode-choc</value>
+      <footprint>pg1232:pg1232-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc43308a-4ff6-4d4b-b5d4-e05108c9c733</tstamps>
+    </comp>
+    <comp ref="K33">
+      <value>LOCK</value>
+      <footprint>pg1350:pg1350-D</footprint>
+      <libsource lib="diode-choc" part="diode-choc" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>527ba797-ae87-4bf2-bbfe-38f1629b4072</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>ON/OFF</value>
+      <footprint>Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>015115c3-de90-4e7a-b9da-35f739d7f88a</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>RESET</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a314e18-4153-42fa-8903-b739c05c6c61</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>nice_nano</value>
+      <footprint>nice-nano-kicad:nice_nano</footprint>
+      <libsource lib="nice_nano" part="nice_nano" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mqz_board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b86ef41e-a266-422d-9f87-a44c974e20eb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode-choc" part="diode-choc">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">diode-choc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="nice_nano" part="nice_nano">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nice_nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX0/P0.06" type="input"/>
+        <pin num="2" name="RX1/P0.08" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="P0.17" type="input"/>
+        <pin num="6" name="P0.20" type="input"/>
+        <pin num="7" name="P0.22" type="input"/>
+        <pin num="8" name="P0.24" type="input"/>
+        <pin num="9" name="P1.00" type="input"/>
+        <pin num="10" name="P0.11" type="input"/>
+        <pin num="11" name="P1.04" type="input"/>
+        <pin num="12" name="P1.06" type="input"/>
+        <pin num="13" name="NFC1/P0.09" type="input"/>
+        <pin num="14" name="NFC2/P0.10" type="input"/>
+        <pin num="15" name="P1.11" type="input"/>
+        <pin num="16" name="P1.13" type="input"/>
+        <pin num="17" name="P1.15" type="input"/>
+        <pin num="18" name="AIN0/P0.02" type="input"/>
+        <pin num="19" name="AIN5/P0.29" type="input"/>
+        <pin num="20" name="AIN7/P0.31" type="input"/>
+        <pin num="21" name="VCC" type="input"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="input"/>
+        <pin num="24" name="BATIN/P0.04" type="input"/>
+        <pin num="31" name="P1.01" type="input"/>
+        <pin num="32" name="P1.02" type="input"/>
+        <pin num="33" name="P1.07" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="diode-choc">
+      <uri>C:\Users\hbb\Desktop\workspace\pcb\mqz_board/../choc/diode-choc.kicad_sym</uri>
+    </library>
+    <library logical="nice_nano">
+      <uri>C:\Users\hbb\Desktop\workspace\pcb\mqz_board/../nice-nano-kicad/nice_nano.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="COL0">
+      <node ref="K1" pin="2" pintype="output"/>
+      <node ref="K11" pin="2" pintype="output"/>
+      <node ref="K21" pin="2" pintype="output"/>
+      <node ref="U1" pin="1" pinfunction="TX0/P0.06" pintype="input"/>
+    </net>
+    <net code="2" name="COL1">
+      <node ref="K12" pin="2" pintype="output"/>
+      <node ref="K2" pin="2" pintype="output"/>
+      <node ref="K22" pin="2" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="RX1/P0.08" pintype="input"/>
+    </net>
+    <net code="3" name="COL2">
+      <node ref="K13" pin="2" pintype="output"/>
+      <node ref="K23" pin="2" pintype="output"/>
+      <node ref="K3" pin="2" pintype="output"/>
+      <node ref="U1" pin="5" pinfunction="P0.17" pintype="input"/>
+    </net>
+    <net code="4" name="COL3">
+      <node ref="K14" pin="2" pintype="output"/>
+      <node ref="K24" pin="2" pintype="output"/>
+      <node ref="K31" pin="2" pintype="output"/>
+      <node ref="K4" pin="2" pintype="output"/>
+      <node ref="U1" pin="6" pinfunction="P0.20" pintype="input"/>
+    </net>
+    <net code="5" name="COL4">
+      <node ref="K15" pin="2" pintype="output"/>
+      <node ref="K25" pin="2" pintype="output"/>
+      <node ref="K5" pin="2" pintype="output"/>
+      <node ref="U1" pin="7" pinfunction="P0.22" pintype="input"/>
+    </net>
+    <net code="6" name="COL5">
+      <node ref="K16" pin="2" pintype="output"/>
+      <node ref="K26" pin="2" pintype="output"/>
+      <node ref="K32" pin="2" pintype="output"/>
+      <node ref="K6" pin="2" pintype="output"/>
+      <node ref="U1" pin="8" pinfunction="P0.24" pintype="input"/>
+    </net>
+    <net code="7" name="COL6">
+      <node ref="K17" pin="2" pintype="output"/>
+      <node ref="K27" pin="2" pintype="output"/>
+      <node ref="K7" pin="2" pintype="output"/>
+      <node ref="U1" pin="9" pinfunction="P1.00" pintype="input"/>
+    </net>
+    <net code="8" name="COL7">
+      <node ref="K18" pin="2" pintype="output"/>
+      <node ref="K28" pin="2" pintype="output"/>
+      <node ref="K8" pin="2" pintype="output"/>
+      <node ref="U1" pin="10" pinfunction="P0.11" pintype="input"/>
+    </net>
+    <net code="9" name="COL8">
+      <node ref="K19" pin="2" pintype="output"/>
+      <node ref="K29" pin="2" pintype="output"/>
+      <node ref="K9" pin="2" pintype="output"/>
+      <node ref="U1" pin="11" pinfunction="P1.04" pintype="input"/>
+    </net>
+    <net code="10" name="COL9">
+      <node ref="K10" pin="2" pintype="output"/>
+      <node ref="K20" pin="2" pintype="output"/>
+      <node ref="K30" pin="2" pintype="output"/>
+      <node ref="K33" pin="2" pintype="output"/>
+      <node ref="U1" pin="12" pinfunction="P1.06" pintype="input"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AIN0/P0.02" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="AIN5/P0.29" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(J1-Pin_5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="AIN7/P0.31" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="P1.01" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="P1.02" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(J2-Pin_3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="P1.07" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(J2-Pin_6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="P1.15" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(SW1-A)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="BATIN/P0.04" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U1-RST)">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="22" name="ROW0">
+      <node ref="K1" pin="1" pintype="input"/>
+      <node ref="K10" pin="1" pintype="input"/>
+      <node ref="K2" pin="1" pintype="input"/>
+      <node ref="K3" pin="1" pintype="input"/>
+      <node ref="K4" pin="1" pintype="input"/>
+      <node ref="K5" pin="1" pintype="input"/>
+      <node ref="K6" pin="1" pintype="input"/>
+      <node ref="K7" pin="1" pintype="input"/>
+      <node ref="K8" pin="1" pintype="input"/>
+      <node ref="K9" pin="1" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="NFC1/P0.09" pintype="input"/>
+    </net>
+    <net code="23" name="ROW1">
+      <node ref="K11" pin="1" pintype="input"/>
+      <node ref="K12" pin="1" pintype="input"/>
+      <node ref="K13" pin="1" pintype="input"/>
+      <node ref="K14" pin="1" pintype="input"/>
+      <node ref="K15" pin="1" pintype="input"/>
+      <node ref="K16" pin="1" pintype="input"/>
+      <node ref="K17" pin="1" pintype="input"/>
+      <node ref="K18" pin="1" pintype="input"/>
+      <node ref="K19" pin="1" pintype="input"/>
+      <node ref="K20" pin="1" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="NFC2/P0.10" pintype="input"/>
+    </net>
+    <net code="24" name="ROW2">
+      <node ref="K21" pin="1" pintype="input"/>
+      <node ref="K22" pin="1" pintype="input"/>
+      <node ref="K23" pin="1" pintype="input"/>
+      <node ref="K24" pin="1" pintype="input"/>
+      <node ref="K25" pin="1" pintype="input"/>
+      <node ref="K26" pin="1" pintype="input"/>
+      <node ref="K27" pin="1" pintype="input"/>
+      <node ref="K28" pin="1" pintype="input"/>
+      <node ref="K29" pin="1" pintype="input"/>
+      <node ref="K30" pin="1" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="P1.11" pintype="input"/>
+    </net>
+    <net code="25" name="ROW3">
+      <node ref="K31" pin="1" pintype="input"/>
+      <node ref="K32" pin="1" pintype="input"/>
+      <node ref="K33" pin="1" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="P1.13" pintype="input"/>
+    </net>
+    <net code="26" name="VCC">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC" pintype="input"/>
+    </net>
+  </nets>
+</export>
